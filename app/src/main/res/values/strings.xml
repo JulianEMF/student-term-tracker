@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Student Term Tracker</string>
+    <string name="button_terms">TERMS</string>
+    <string name="button_courses">COURSES</string>
+    <string name="button_assessments">ASSESSMENTS</string>
+    <string name="terms_list">List of Terms</string>
+    <string name="add_term">Add Term</string>
+    <string name="term_title">Term Title</string>
+    <string name="start_date">Start Date "MM/DD/YYYY"</string>
+    <string name="end_date">End Date "MM/DD/YYYY"</string>
+    <string name="courses_list">List of Courses</string>
+    <string name="save">Save</string>
+    <string name="add_course">Add Course</string>
+    <string name="course_title">Course Title</string>
+    <string name="status">Status</string>
+    <string name="add_assessment">Add Assessment</string>
+    <string name="assessment_type">Type of Assessment</string>
+    <string name="assessment_title">Assessment Title</string>
+    <string name="term">Term</string>
+    <string name="date_format">MM-DD-YYYY</string>
+    <string name="associated_assessments">Associated Assessments</string>
+    <string name="instructor_name">Instructor\'s Name</string>
+    <string name="instructor_phone">Instructor\'s Phone Number</string>
+    <string name="instructor_email">Instructor\'s Email</string>
+    <string name="course_information">Course Information</string>
+    <string name="instructor_information">Course Instructor Information</string>
+    <string name="assessment_information">Assessment Information</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Description</string>
+    <string name="notes">Notes</string>
+    <string name="share_notes">Share Notes</string>
+    <string name="delete">Delete</string>
+    <string name="notify">Set Notification</string>
+    <string name="ok">Ok</string>
+    <string name="input_restriction">Input Restriction</string>
+    <string name="date_restriction">The date must be in the format: "\n" MM/dd/yyyy. For example: 08/24/2022</string>
+    <string name="invalid_date">Invalid Dates</string>
+    <string name="date_order">Please make sure the start date is before the end date</string>
+    <string name="select_assessment_type">Please select the type of assessment:</string>
+    <string name="assessment_associated_course">Please select the associated course:</string>
+    <string name="select_course_status">Please select the course status:</string>
+    <string name="select_associated_term">Please select the associated term:</string>
+    <string name="delete_assessment">Delete Assessment</string>
+    <string name="delete_term">Delete Term</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="assessment_details">Assessment Details</string>
+    <string name="course_details">Course Details</string>
+    <string name="term_details">Term Details</string>
+    <string name="assessment_list">List of Assessments</string>
+    <string name="term_information">Term Information</string>
+    <string name="associated_courses">Associated Courses</string>
+    <string-array name = "assessmentTypes">
+        <item>Performance</item>
+        <item>Objective</item>
+    </string-array>
+    <string-array name = "courseStatus">
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Plan to Take</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.julianmf.studentTermTracker" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentTermTracker" >
+        <receiver
+            android:name=".Alarms.AssessmentEndDateReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+        <receiver
+            android:name=".Alarms.CourseEndDateReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".Alarms.CourseStartDateReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".Alarms.AssessmentStartDateReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:label="@string/assessment_list"
+            android:name=".UI.AssessmentsList"
+            android:exported="true" />
+        <activity
+            android:label="@string/assessment_details"
+            android:name=".UI.AssessmentDetails"
+            android:exported="true" />
+        <activity
+            android:label="@string/course_details"
+            android:name=".UI.CourseDetails"
+            android:exported="true" />
+        <activity
+            android:label="@string/term_details"
+            android:name=".UI.TermDetails"
+            android:exported="true" />
+        <activity
+            android:label="@string/courses_list"
+            android:name=".UI.CoursesList"
+            android:exported="true" />
+        <activity
+            android:name=".UI.TermsList"
+            android:exported="true"
+            android:label="@string/terms_list" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
